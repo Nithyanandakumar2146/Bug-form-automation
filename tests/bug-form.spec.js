@@ -2,14 +2,14 @@ const { test, expect } = require('@playwright/test');
 // Import your JSON data
 const testData = require('../data-test.json'); 
 
-test.describe('QA Practice Bugs Form Tests - JSON Data Driven', () => {
+test.describe('Bugs Form Tests', () => {
 
   let user;
 
   // Before each test, open the page
   test.beforeEach(async ({ page }) => {
     await page.goto('https://qa-practice.netlify.app/bugs-form');
-    user = { ...testData.validUser }; // Load valid user data from JSON 
+    user = { ...testData.validUser }; // Load user data from JSON 
     await page.waitForTimeout(200); 
   });
 

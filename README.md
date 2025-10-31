@@ -25,13 +25,14 @@ project-root/
 │
 ├─ tests/ # Contains all test scripts
 │ └─ bug-form.spec.js 
+| └─ Playwright Test Report.pdf
 ├─ screenshots/ # Captured screenshots (success & failure)
 ├─ test-data.json # User data for tests
 ├─ playwright.config.js 
 └─ README.md
 ---
 ## 5.Setup Instructions
-1. Clone the repository:  
+1. Clone the repository  
 2. Install project dependencies: npm install
 3. Install Playwright browsers: npm init playwright@latest
 ---
