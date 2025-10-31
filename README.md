@@ -32,7 +32,7 @@ project-root/
 └─ README.md
 ---
 ## 5.Setup Instructions
-1. Clone the repository  
+1. Clone the repository, then Move into project folder.
 2. Install project dependencies: npm install
 3. Install Playwright browsers: npm init playwright@latest
 ---
